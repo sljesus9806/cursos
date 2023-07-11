@@ -18,7 +18,7 @@ while True:
         print ('|', end="")
         for coordinate_x in range(MAP_WIDTH):
             if my_position[POS_X] == coordinate_x and my_position[POS_Y] == coordinate_y:
-                print(" D ", end = "")
+                print(" @ ", end = "")
             else:
                 print('   ', end = '')
         print('|')
