@@ -1,6 +1,6 @@
-def saludo_sectario(nombre):
-    
-    print (f'Hola {nombre[::-1]}')
-    
+def main():
+    print('hola mundo')
 
-saludo_sectario(input('cual es tu nombre?: '))
+if __name__== '__main__':
+    main()
+    
